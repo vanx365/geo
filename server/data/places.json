@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Taj_Mahal_(Edited).jpeg?width=1200",
+    "lat": 27.1751, "lng": 78.0421,
+    "country": "India",
+    "fact": "El Taj Mahal, en Agra, es un mausoleo de mármol blanco que Shah Jahan mandó construir en el siglo XVII en memoria de su esposa."
+  },
+  {
+    "id": 2,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Colosseo_2020.jpg?width=1200",
+    "lat": 41.8902, "lng": 12.4922,
+    "country": "Italia",
+    "fact": "El Coliseo de Roma se inauguró en el año 80 d. C. y podía albergar a decenas de miles de espectadores."
+  },
+  {
+    "id": 3,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Liberty_7.jpg?width=1200",
+    "lat": 40.6892, "lng": -74.0445,
+    "country": "Estados Unidos",
+    "fact": "La Estatua de la Libertad fue un regalo de Francia a Estados Unidos y se inauguró en 1886 en una isla del puerto de Nueva York."
+  },
+  {
+    "id": 4,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Opera_House_-_Dec_2008.jpg?width=1200",
+    "lat": -33.8568, "lng": 151.2153,
+    "country": "Australia",
+    "fact": "La Ópera de Sídney, diseñada por Jørn Utzon, tiene un techo de velas que está cubierto por más de un millón de azulejos."
+  },
+  {
+    "id": 5,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Wall_of_China_July_2006.JPG?width=1200",
+    "lat": 40.3587, "lng": 116.0200,
+    "country": "China",
+    "fact": "La Gran Muralla no es un muro único: son muchos tramos construidos por distintas dinastías a lo largo de siglos."
+  }
+]
