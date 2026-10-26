@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GeoLogika</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bar">
+    <h1>GeoLogika</h1>
+    <p class="status">Ronda <span id="roundNum">1</span> de 5 · <span id="total">0</span> puntos</p>
+  </header>
+
+  <main class="game">
+    <figure class="photo">
+      <img id="photo" alt="Foto de un lugar del mundo. Ubícalo en el mapa.">
+      <p id="photoError" class="error" hidden>No se pudo cargar la foto. Revisa la URL en places.json.</p>
+    </figure>
+
+    <section class="play">
+      <div id="map" aria-label="Mapa del mundo"></div>
+      <button id="guessBtn" disabled>Haz clic en el mapa para elegir</button>
+
+      <div id="result" class="result" hidden>
+        <p class="result-main"><strong id="distance"></strong> de distancia · <strong id="points"></strong> puntos</p>
+        <p class="result-place" id="country"></p>
+        <p id="fact"></p>
+        <button id="nextBtn">Siguiente ronda</button>
+      </div>
+    </section>
+  </main>
+
+  <section id="final" class="final" hidden>
+    <h2>Fin de la partida</h2>
+    <p>Sumaste <strong id="finalScore"></strong> de 25000 puntos.</p>
+    <button id="againBtn">Jugar otra vez</button>
+  </section>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
