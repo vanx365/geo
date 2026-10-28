@@ -80,7 +80,6 @@ Abre **http://localhost:3000** en el navegador. Para detener el servidor, presio
 
 ## Video de demostración
 
-Enlace: _(pegar aquí la URL pública del video)_
 
 ## Próximas mejoras
 
